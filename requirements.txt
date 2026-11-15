@@ -1,0 +1,28 @@
+# WINTELLISYT v0.2.0 — Complete Python Requirements
+# Install all runtime, workbench UI, geospatial, and verification packages:
+#   pip install -r requirements.txt
+# Or install as an editable package with extras:
+#   pip install -e ".[all]"
+
+# Core Scientific & Tabular Engine
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+pyarrow>=14.0
+
+# Machine Learning & Power-Curve Benchmarks
+scikit-learn>=1.4
+threadpoolctl>=3.2
+
+# Interactive Workbench, Geospatial Mapping & Web Backends
+nicegui>=2.0
+plotly>=5.18
+folium>=0.16
+starlette>=0.36
+uvicorn>=0.27
+
+# Publication Plotting, Test Client & Code Quality Gates
+httpx>=0.27
+matplotlib>=3.8
+ruff>=0.4,<1
+mypy>=1.8

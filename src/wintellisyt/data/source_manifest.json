@@ -1,0 +1,66 @@
+{
+  "kelmarsh": {
+    "title": "Kelmarsh wind farm data",
+    "provider": "Cubico Sustainable Investments Ltd",
+    "creators": ["Charlie Plumley", "Roberta Takeuchi"],
+    "source_url": "https://doi.org/10.5281/zenodo.16807551",
+    "version": "v4",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "cadence_minutes": 10,
+    "timestamp_semantics": "Greenbyte export preamble declares UTC. Interval anchoring was not established.",
+    "status_semantics": "UTC event logs are separate CSV members and are not joined to SCADA. Per-row status_code is null and operational_state is unknown.",
+    "coverage": "Publisher release spans 2016–2024 across six Senvion MM92 turbines. Retrieved archive contains 2016 data for turbines 1–6.",
+    "acquisition": {
+      "state": "verified",
+      "retrieved_on": "2026-11-14",
+      "path": "data/raw/kelmarsh/Kelmarsh_SCADA_2016_3082.zip",
+      "url": "https://zenodo.org/records/16807551/files/Kelmarsh_SCADA_2016_3082.zip",
+      "publisher_md5": "ca8efbb6dbcfae3516583937eb5b5402",
+      "sha256": "4e8a73aeb823aeb21a2c7829f14434e44eea523f1d7f9be0177ff1b76e3ded27",
+      "bytes": 97915553
+    }
+  },
+  "penmanshiel": {
+    "title": "Penmanshiel wind farm data",
+    "provider": "Cubico Sustainable Investments Ltd",
+    "creators": ["Charlie Plumley", "Roberta Takeuchi"],
+    "source_url": "https://doi.org/10.5281/zenodo.16807304",
+    "version": "v3",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "cadence_minutes": 10,
+    "timestamp_semantics": "Greenbyte export preamble declares UTC. Interval anchoring was not established.",
+    "status_semantics": "UTC event logs are separate CSV members and are not joined to SCADA. Per-row status_code is null and operational_state is unknown.",
+    "coverage": "Publisher release spans 2016–2024 with variable channel and turbine coverage across fourteen Senvion MM82 turbines, excluding WT03. Retrieved archive contains 2016 data for turbines 11–15.",
+    "acquisition": {
+      "state": "verified",
+      "retrieved_on": "2026-11-14",
+      "path": "data/raw/penmanshiel/Penmanshiel_SCADA_2016_WT11-15_3107.zip",
+      "url": "https://zenodo.org/records/16807304/files/Penmanshiel_SCADA_2016_WT11-15_3107.zip",
+      "publisher_md5": "92c30453d43a38e985af3e2e305eedd4",
+      "sha256": "1d1f36873afe0cbd9ffaee3c2b8fd92d44905fd1282c1e615bda9e18a63fd30f",
+      "bytes": 55917173
+    }
+  },
+  "la_haute_borne": {
+    "title": "La Haute Borne wind farm SCADA",
+    "provider": "ENGIE Green",
+    "source_url": "https://opendata-renewables.engie.com/explore/dataset/la-haute-borne-data-2013-2016/",
+    "version": "2013–2016 catalog identifier; release metadata unverified",
+    "license": null,
+    "license_url": null,
+    "cadence_minutes": 10,
+    "timestamp_semantics": "OpenOA documents historical exports with explicit +01:00 or +02:00 offsets. The adapter requires an explicit offset and converts to UTC.",
+    "status_semantics": "No publisher event or status labels verified. Adapter emits null status_code and unknown operational_state.",
+    "coverage": "Historical export schema documented by OpenOA. Publisher data acquisition blocked.",
+    "acquisition": {
+      "state": "blocked",
+      "path": null,
+      "url": "https://opendata-renewables.engie.com/api/records/1.0/search/?dataset=la-haute-borne-data-2013-2016&rows=1",
+      "publisher_md5": null,
+      "sha256": null,
+      "message": "Publisher catalog and API host did not resolve during direct requests. Publisher release terms and data bytes could not be verified."
+    }
+  }
+}

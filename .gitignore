@@ -1,0 +1,47 @@
+# Python build & venv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+build/
+dist/
+*.egg-info/
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+
+# Secrets, local workspace state, and legacy backups
+.env
+.env.*
+!.env.example
+*.key
+.antigravity/
+/backups/
+/WINTELLISYT_v0.2.0_HANDOFF_TR.md
+
+# Preserve data/raw folder skeleton & download guide, exclude all raw archives/binaries
+/data/raw/*
+!/data/raw/README.md
+!/data/raw/kelmarsh/
+/data/raw/kelmarsh/*
+!/data/raw/kelmarsh/.gitkeep
+!/data/raw/penmanshiel/
+/data/raw/penmanshiel/*
+!/data/raw/penmanshiel/.gitkeep
+
+# Exclude downloaded reanalysis, processed caches, and generated artifacts
+/data/external/
+/data/processed/
+/artifacts/
+/outputs/
+/models/
+/checkpoints/
+*.zip
+*.parquet
+*.jsonl.gz
+*.h5
+*.hdf5

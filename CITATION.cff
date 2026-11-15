@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "WINTELLISYT: Reproducible Wind Turbine SCADA Diagnostics & Asset Intelligence"
+message: "If you use this software, please cite the software and the underlying Cubico SCADA datasets."
+type: software
+license: MIT
+version: "0.2.0"
+date-released: "2026-11-15"
+authors:
+  - name: "WINTELLISYT Engineering Team"
+references:
+  - type: data
+    title: "Kelmarsh wind farm data (v4)"
+    authors:
+      - family-names: "Plumley"
+        given-names: "Charlie"
+      - family-names: "Takeuchi"
+        given-names: "Roberta"
+    doi: "10.5281/zenodo.16807551"
+    license: "CC-BY-4.0"
+  - type: data
+    title: "Penmanshiel wind farm data (v3)"
+    authors:
+      - family-names: "Plumley"
+        given-names: "Charlie"
+      - family-names: "Takeuchi"
+        given-names: "Roberta"
+    doi: "10.5281/zenodo.16807304"
+    license: "CC-BY-4.0"

@@ -1,0 +1,18 @@
+{
+  "kelmarsh": {
+    "path": "data/raw/kelmarsh/Kelmarsh_SCADA_2017_3083.zip",
+    "url": "https://zenodo.org/records/16807551/files/Kelmarsh_SCADA_2017_3083.zip",
+    "bytes": 174604722,
+    "publisher_md5": "c78263ee52ee0e48e2cb4bbaa1ba211a",
+    "sha256": "528c942caec09bf02a25651cb13b6ecb13d4a09d287b2bb546f10adc614a14e3",
+    "retrieved_on": "2026-11-14"
+  },
+  "penmanshiel": {
+    "path": "data/raw/penmanshiel/Penmanshiel_SCADA_2017_WT11-15_3115.zip",
+    "url": "https://zenodo.org/records/16807304/files/Penmanshiel_SCADA_2017_WT11-15_3115.zip",
+    "bytes": 152896438,
+    "publisher_md5": "d41874e3d195e88506949492b5758cf6",
+    "sha256": "2da262bbc55aef030cfdcd2fa11b6a664bcaaafdf916364e9c4c26fdd6adfb7c",
+    "retrieved_on": "2026-11-14"
+  }
+}

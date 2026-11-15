@@ -1,0 +1,11 @@
+{
+  "path": "data/raw/penmanshiel/Penmanshiel_SCADA_2017_WT01-10_3114.zip",
+  "url": "https://zenodo.org/records/16807304/files/Penmanshiel_SCADA_2017_WT01-10_3114.zip",
+  "source_url": "https://doi.org/10.5281/zenodo.16807304",
+  "release": "v3",
+  "license": "CC-BY-4.0",
+  "publisher_md5": "c8279e34a5e33d688e2219aa9abab74e",
+  "sha256": "2c08ee7566a4dc37b8e42e83f8324a543bdf47cbf484a8e40b7ab3eec035fbcb",
+  "bytes": 273531678,
+  "retrieved_on": "2026-11-14"
+}
